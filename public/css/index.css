@@ -1,0 +1,60 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ .container-fluid {
+     margin-left: 8%;
+
+ }
+
+ /* .navbar-brand{
+    margin-top: 10px;
+}  */
+
+ .route-login {
+     margin-right: 10%;
+
+     .btn {
+        background-color: rgba(13, 13, 198, 0.748);
+         width: 160px;
+         height: 35px;
+         margin-right: 10%;
+         border-radius: 0;
+         font-size: 14px;
+     }
+ }
+
+
+ .navegation{
+    display: flex;
+    width: 100%;
+    margin-top: 0.7%;
+    background-color: rgba(13, 13, 198, 0.748);
+    height: 40px;
+    align-items: center;
+
+    .nav-elements {
+            display: flex;
+            gap: 5px;
+            width: 100%;
+            margin-left: 8.5%;
+           
+
+            .nav-link{
+                color: white;
+                transition: ease 0.5s;
+                width: auto;
+                padding-top: 5px;
+                padding-left: 25px;
+                padding-right: 25px;
+                height: 40px;
+                font-size: 16px;
+            }
+
+            .nav-link:hover{
+                background-color: black;
+            }
+        }
+ }
